@@ -1,0 +1,15 @@
+.footer {
+}
+.footer-body {
+  width: 200px;
+  margin: 0 auto;
+  padding: 88px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.footer-text {
+  text-align: center;
+}

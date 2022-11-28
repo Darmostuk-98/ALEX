@@ -1,0 +1,52 @@
+.portfolio {
+  width: 1195px;
+  margin: 0 auto;
+}
+.portfolio_subtitle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 7.5px;
+  color: #656d72;
+  padding: 133px 0 15px 0;
+}
+.portfolio_subtitle::before {
+  content: "";
+  width: 15px;
+  height: 1.5px;
+  background: #d9d9d9;
+  display: inline-block;
+  margin: 0 18px 0 0;
+}
+
+.portfolio_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 144px 0;
+}
+.portfolio_title {
+  color: #232e35;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+
+  color: #232e35;
+}
+.portfolio_arows {
+  display: flex;
+}
+
+.portfolio_arows_right {
+  padding: 0 0 0 15px;
+}
+.portfolio_rows {
+  display: flex;
+  padding: 0 0 146px 0;
+}
+.portfolio_item {
+  flex: 0 0 33.333%;
+}

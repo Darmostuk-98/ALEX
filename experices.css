@@ -1,0 +1,126 @@
+.experices {
+  background-color: #fbfbfb;
+  padding: 125px 0 140px 0;
+}
+.experices_body {
+  display: flex;
+  max-width: 1195px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.experices_subtitle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  letter-spacing: 7.5px;
+  text-transform: uppercase;
+  color: #656d72;
+}
+.experices_subtitle::before {
+  content: "";
+  width: 15px;
+  height: 1.5px;
+  background: #d9d9d9;
+  display: inline-block;
+  margin: 0 18px 0 0;
+}
+
+.experices_title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #232e35;
+}
+.list_company {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.list_company li {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 24px;
+}
+.list_company li:hover {
+  color: #7e74f1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  height: 50px;
+  padding: 0 5px;
+  border-radius: 10px;
+  border: 1px solid #ededed;
+  color: #7e74f1;
+}
+.active:hover {
+  -webkit-box-shadow: 11px 14px 28px -4px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 11px 14px 28px -4px rgba(0, 0, 0, 0.39);
+  box-shadow: 11px 14px 28px -4px rgba(0, 0, 0, 0.39);
+}
+.experices_front-end {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+.experices_place {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 16px;
+
+  color: #656d72;
+}
+.experices_date {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #656d72;
+  margin-bottom: 16px;
+}
+.experices_button {
+  padding: 0 16px 0 0;
+  margin-bottom: 32px;
+}
+
+.list_about {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #656d72;
+  padding: 0;
+  margin: 40px 0;
+}
+.list_about li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #656d72;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.list_about li::before {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background: #d9d9d9;
+  display: inline-block;
+  margin: 0 18px 0 0;
+}
